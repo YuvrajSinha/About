@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    text-align: center;
+    font-family: 'Concert One', cursive;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin-top: 0;
+    font-family: 'Pacifico', cursive; 
+    font-weight:100;
+    color: #02475e;
+}
+p{
+    color: #40514E;
+    line-height: 2;
+}
+a{
+    text-decoration: none;
+    font-family: 'Patua One', cursive;
+    margin: 10px 20px;
+    color: #687980;
+    line-height: 2;
+}
+a:hover{
+    color: #f8d4d4;
+}
+
+h2{
+    font-family: 'Patua One', cursive;
+    color: #02475e;
+    font-weight: 500;
+}
+h3{
+    
+    color: #02475e;
+    font-weight:100;
+}
+
+hr{
+    border: dotted #687980 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.top-container{
+    background-color: #fefecc;
+    position: relative;
+    padding-top: 200px;
+    padding-bottom: 250px;
+}
+
+.middle-container{
+    margin: 100px auto;
+}
+
+.bottom-container{
+    background-color: #fefecc;
+    padding: 50px 0 20px;
+}
+
+.message{
+    width: 40%;
+    margin: 40px auto 60px; 
+}
+
+.cloud1{
+    position: absolute;    
+    right: 200px;
+    top: 50px;
+}
+
+.cloud2{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+
+
+/* .skils{
+    
+} */
+.skill-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.Hobbies-row{
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+}
+
+.naruto{
+    float: left;
+}
+
+.tv{
+    float: right; 
+    
+}
+
+.btn {
+    background: #02475e;
+    background-image: -webkit-linear-gradient(top, #02475e, #687980);
+    background-image: -moz-linear-gradient(top, #02475e, #687980);
+    background-image: -ms-linear-gradient(top, #02475e, #687980);
+    background-image: -o-linear-gradient(top, #02475e, #687980);
+    background-image: linear-gradient(to bottom, #02475e, #687980);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #f3bda1;
+    background-image: -webkit-linear-gradient(top, #f3bda1, #fefecc);
+    background-image: -moz-linear-gradient(top, #f3bda1, #fefecc);
+    background-image: -ms-linear-gradient(top, #f3bda1, #fefecc);
+    background-image: -o-linear-gradient(top, #f3bda1, #fefecc);
+    background-image: linear-gradient(to bottom, #f3bda1, #fefecc);
+    text-decoration: none;
+  }
